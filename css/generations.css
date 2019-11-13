@@ -1,0 +1,35 @@
+body {
+    width: 99%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background-color: #474e5d;
+    font-family: Helvetica, sans-serif;
+}
+
+.gridBox {
+    display: grid;
+    width: 99vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50px auto 250px;
+
+}
+
+.topNav {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.timeline {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
