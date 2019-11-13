@@ -10,6 +10,12 @@ body {
 p{
     border-style: hidden;
     color: black;
+    text-decoration-line: none;
+}
+a{
+    border-style: hidden;
+    color: black;
+    text-decoration-line: none;
 }
 
 * {
