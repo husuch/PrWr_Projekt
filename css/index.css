@@ -1,16 +1,17 @@
 body {
-    width: 99%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     margin: 0;
     padding: 0;
     font-size: 100%;
     background-color: #474e5d;
     font-family: Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 .gridBox {
     display: grid;
-    width: 99vw;
+    width: 100vw;
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -66,16 +67,22 @@ body {
 .topNav {
     background-color: #333;
     overflow: hidden;
+    padding: 10px;
+
+
+
+
+
 }
 
 /* Style the links inside the navigation bar */
 .topNav a {
-    margin-left: 47vw;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 15px 17px;
     text-decoration: none;
+    text-align: center;
     font-size: 170%;
+    margin-left: 46.5vw;
+    color: #f2f2f2;
 }
 
 
