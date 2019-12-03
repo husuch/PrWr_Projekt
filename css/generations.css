@@ -34,9 +34,15 @@ body {
     border-radius: 6px;
     background-color: #f2f2f2;
 }
-.gameContent h3{
-    margin-left: 20px;
+
+.gameContent h1, h2, p, ul{
+    margin-left: 10px;
 }
+
+
+.gameContent h3{
+     margin-left: 20px;
+ }
 #previousGen{
     grid-column-start: 1;
     grid-column-end: 2;
